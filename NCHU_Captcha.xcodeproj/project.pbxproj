@@ -126,6 +126,7 @@
 		F5EA6A6B2C5DC06C00E14E75 /* NCHU_captcha.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NCHU_captcha.entitlements; sourceTree = "<group>"; };
 		F5EA6A9A2C5DC08400E14E75 /* ilearning.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = ilearning.js; sourceTree = "<group>"; };
 		F5EA6A9D2C5DC08B00E14E75 /* NCHU_Portal.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = NCHU_Portal.js; sourceTree = "<group>"; };
+		F5EA6AA02C5DC3DD00E14E75 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +164,7 @@
 		F5EA6A202C5DC06A00E14E75 = {
 			isa = PBXGroup;
 			children = (
+				F5EA6AA02C5DC3DD00E14E75 /* README.md */,
 				F5EA6A252C5DC06A00E14E75 /* Shared (App) */,
 				F5EA6A2E2C5DC06C00E14E75 /* Shared (Extension) */,
 				F5EA6A3F2C5DC06C00E14E75 /* iOS (App) */,
