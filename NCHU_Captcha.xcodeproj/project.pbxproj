@@ -369,7 +369,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F5EA6A242C5DC06A00E14E75 /* Build configuration list for PBXProject "NCHU_captcha" */;
+			buildConfigurationList = F5EA6A242C5DC06A00E14E75 /* Build configuration list for PBXProject "NCHU_Captcha" */;
 			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -928,7 +928,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F5EA6A242C5DC06A00E14E75 /* Build configuration list for PBXProject "NCHU_captcha" */ = {
+		F5EA6A242C5DC06A00E14E75 /* Build configuration list for PBXProject "NCHU_Captcha" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F5EA6A8A2C5DC06C00E14E75 /* Debug */,
