@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F5B4093F2C693E6B0009203A /* 128.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B4093E2C693E6B0009203A /* 128.png */; };
+		F5B409402C693E6B0009203A /* 128.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B4093E2C693E6B0009203A /* 128.png */; };
 		F5EA6A412C5DC06C00E14E75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EA6A402C5DC06C00E14E75 /* AppDelegate.swift */; };
 		F5EA6A432C5DC06C00E14E75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EA6A422C5DC06C00E14E75 /* SceneDelegate.swift */; };
 		F5EA6A462C5DC06C00E14E75 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F5EA6A452C5DC06C00E14E75 /* Base */; };
@@ -17,8 +19,6 @@
 		F5EA6A662C5DC06C00E14E75 /* NCHU_captcha Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F5EA6A652C5DC06C00E14E75 /* NCHU_captcha Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F5EA6A6C2C5DC06C00E14E75 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F5EA6A282C5DC06A00E14E75 /* Base */; };
 		F5EA6A6D2C5DC06C00E14E75 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F5EA6A282C5DC06A00E14E75 /* Base */; };
-		F5EA6A6E2C5DC06C00E14E75 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F5EA6A292C5DC06A00E14E75 /* Icon.png */; };
-		F5EA6A6F2C5DC06C00E14E75 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F5EA6A292C5DC06A00E14E75 /* Icon.png */; };
 		F5EA6A702C5DC06C00E14E75 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = F5EA6A2A2C5DC06A00E14E75 /* Style.css */; };
 		F5EA6A712C5DC06C00E14E75 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = F5EA6A2A2C5DC06A00E14E75 /* Style.css */; };
 		F5EA6A722C5DC06C00E14E75 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = F5EA6A2B2C5DC06A00E14E75 /* Script.js */; };
@@ -94,8 +94,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F5B4093E2C693E6B0009203A /* 128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 128.png; sourceTree = "<group>"; };
 		F5EA6A282C5DC06A00E14E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
-		F5EA6A292C5DC06A00E14E75 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		F5EA6A2A2C5DC06A00E14E75 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
 		F5EA6A2B2C5DC06A00E14E75 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
 		F5EA6A2C2C5DC06A00E14E75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -189,8 +189,8 @@
 			isa = PBXGroup;
 			children = (
 				F5EA6A272C5DC06A00E14E75 /* Main.html */,
-				F5EA6A292C5DC06A00E14E75 /* Icon.png */,
 				F5EA6A2A2C5DC06A00E14E75 /* Style.css */,
+				F5B4093E2C693E6B0009203A /* 128.png */,
 				F5EA6A2B2C5DC06A00E14E75 /* Script.js */,
 			);
 			path = Resources;
@@ -397,11 +397,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5EA6A6E2C5DC06C00E14E75 /* Icon.png in Resources */,
 				F5EA6A462C5DC06C00E14E75 /* Base in Resources */,
 				F5EA6A6C2C5DC06C00E14E75 /* Base in Resources */,
 				F5EA6A722C5DC06C00E14E75 /* Script.js in Resources */,
 				F5EA6A762C5DC06C00E14E75 /* Assets.xcassets in Resources */,
+				F5B4093F2C693E6B0009203A /* 128.png in Resources */,
 				F5EA6A492C5DC06C00E14E75 /* Base in Resources */,
 				F5EA6A702C5DC06C00E14E75 /* Style.css in Resources */,
 			);
@@ -411,10 +411,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5EA6A6F2C5DC06C00E14E75 /* Icon.png in Resources */,
 				F5EA6A712C5DC06C00E14E75 /* Style.css in Resources */,
 				F5EA6A552C5DC06C00E14E75 /* Base in Resources */,
 				F5EA6A732C5DC06C00E14E75 /* Script.js in Resources */,
+				F5B409402C693E6B0009203A /* 128.png in Resources */,
 				F5EA6A772C5DC06C00E14E75 /* Assets.xcassets in Resources */,
 				F5EA6A6D2C5DC06C00E14E75 /* Base in Resources */,
 			);

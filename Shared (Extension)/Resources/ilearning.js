@@ -1,9 +1,6 @@
-//
 //  ilearning.js
 //  NCHU_captcha
-//
 //  Created by Eric Yang on 2024/7/31.
-//
 // 由https://github.axisflow.biz/NCHU-Website-Helper/AllPortals-Login/apl.user.js改寫而來
 const top_align = 2;
 const left_align = 11;
@@ -265,10 +262,12 @@ function sum1D(arr, start = 0) {
 
 /* Main Program */
 
+// 預測驗證碼的數字
+// 根據圖像預測代碼
 function predict_code(code_image) {
     let min = 0;
     let softmin = code_w * code_h;
-
+    
     for (let i = 1; i <= code_numbers.length; i++) {
         const diff = flatten2D(subtract2D(code_image, code_numbers[i - 1]));
         const tmp = sum1D(forEach(diff, x => Math.abs(x)));
@@ -281,36 +280,70 @@ function predict_code(code_image) {
     return min;
 }
 
-function lms_process() {
+// 處理 LMS CAPTCHA
+function lms_process(callback) {
     try {
         const code_element = document.getElementsByClassName('js-captcha')[0];
         const code_img = crop2D(
-            reshape2D(
-                forEach(
-                    toRGBA(getImageData(code_element))[2],
-                    x => x < threshold ? 1 : 0
-                ),
-                code_element.height,
-                code_element.width
-            ),
-            left_align,
-            top_align,
-            code_w * code_count,
-            code_h
-        );
-
+                                reshape2D(
+                                          forEach(
+                                                  toRGBA(getImageData(code_element))[2],
+                                                  x => x < threshold ? 1 : 0
+                                                  ),
+                                          code_element.height,
+                                          code_element.width
+                                          ),
+                                left_align,
+                                top_align,
+                                code_w * code_count,
+                                code_h
+                                );
+        
         let numbers = '';
         for (let i = 0; i < code_count; i++) {
             numbers += predict_code(crop2D(code_img, code_w * i, 0, code_w, code_h));
         }
         
         document.getElementsByClassName('fs-form-captcha-field')[0].value = numbers;
+        if (callback) callback(); // 呼叫回調函數進行登入
     } catch (e) {
-        window.setTimeout(lms_process, 250);
+        window.setTimeout(() => lms_process(callback), 250);
     }
 }
 
-const sas_code_input = document.getElementById('myvad');
-if (document.getElementsByClassName('js-captcha').length > 0) {
-    lms_process();
+// 自動填入帳號和密碼並登入
+function fillUsernamePassword() {
+    var userIdInput = document.querySelector('input[name="account"]');
+    var userPasswordInput = document.querySelector('input[name="password"]');
+    var loginButton = document.querySelector('button[data-role="form-submit"]');
+    
+    if (userIdInput && userPasswordInput && loginButton) {
+        chrome.storage.local.get(['userId', 'userPassword'], function(data) {
+            userIdInput.value = data.userId || '';
+            userPasswordInput.value = data.userPassword || '';
+            userIdInput.dispatchEvent(new Event('input', { bubbles: true }));
+            userPasswordInput.dispatchEvent(new Event('input', { bubbles: true }));
+            
+            var codeInput = document.querySelector('[name="inputCode"]');
+            loginButton.click();
+            
+        });
+    };
 }
+
+// 檢查 autoLogin 狀態
+function checkAutoLoginStatus() {
+    chrome.storage.local.get('autoLogin', function(data) {
+        if (data.autoLogin) {
+            fillUsernamePassword();
+        }
+    });
+}
+
+// 立即執行檢查 autoLogin 狀態，並檢查 captcha
+(function() {
+    if (document.getElementsByClassName('js-captcha').length > 0) {
+        lms_process();
+        checkAutoLoginStatus();
+    }
+})();
