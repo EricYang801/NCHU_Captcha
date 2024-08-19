@@ -18,6 +18,8 @@ NCHU_captcha 是一個用於 NCHU校園系統自動填寫驗證碼的瀏覽器�
 
 ## 許可證
 
+本專案使用 [MIT 許可證](https://opensource.org/licenses/MIT)
+
 
 
 
