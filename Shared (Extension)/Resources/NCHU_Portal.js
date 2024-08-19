@@ -1,5 +1,5 @@
  (function() {
-     // 創建並注入 script 以獲取變數 code 值
+     // 創建並注入 script 以獲取變數 code 值 
      var script = document.createElement('script');
      script.textContent = `
           (function() {
