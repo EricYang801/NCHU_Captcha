@@ -26,7 +26,7 @@
         },
         {
             "js": ["NCHU_Portal.js"],
-            "matches": ["https://idp.nchu.edu.tw/nidp/idff/sso*"],
+            "matches": ["https://idp.nchu.edu.tw/nidp/idff/sso*"]
         }
     ],
     "action": {
@@ -39,6 +39,5 @@
         "scripting",
         "https://lms2020.nchu.edu.tw/*",
         "https://idp.nchu.edu.tw/*"
-    ],
-    
+    ]
 }
