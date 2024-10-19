@@ -78,7 +78,7 @@
      }
      
      function monitorPageReload() {
-         if (window.location.href === "https://idp.nchu.edu.tw/nidp/idff/sso?sid=0&sid=0") {
+         if (window.location.href === "https://idp.nchu.edu.tw/nidp/app/login?sid=0&sid=0") {
              alert("登入失敗請檢查帳號密碼是否正確");
              throw new Error("登入失敗，終止所有進程");
          }

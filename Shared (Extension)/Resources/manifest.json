@@ -27,6 +27,10 @@
         {
             "js": ["NCHU_Portal.js"],
             "matches": ["https://idp.nchu.edu.tw/nidp/idff/sso*"]
+        },
+        {
+            "js": ["NCHU_Portal.js"],
+            "matches": ["https://idp.nchu.edu.tw/nidp/app/login*"]
         }
     ],
     "action": {

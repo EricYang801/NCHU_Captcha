@@ -325,8 +325,9 @@ function fillUsernamePassword() {
             userPasswordInput.dispatchEvent(new Event('input', { bubbles: true }));
             
             var codeInput = document.querySelector('[name="inputCode"]');
-            loginButton.click();
-            
+            setInterval(function() {
+                loginButton.click();
+            }, 500);
         });
     };
 }
