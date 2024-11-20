@@ -578,7 +578,7 @@
 				DEVELOPMENT_TEAM = 6JJZAVHJ9S;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = NCHU_captcha;
+				INFOPLIST_KEY_CFBundleDisplayName = NCHU_Captcha;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -616,7 +616,7 @@
 				DEVELOPMENT_TEAM = 6JJZAVHJ9S;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = NCHU_captcha;
+				INFOPLIST_KEY_CFBundleDisplayName = NCHU_Captcha;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
