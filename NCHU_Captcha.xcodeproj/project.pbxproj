@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5EA6A412C5DC06C00E14E75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EA6A402C5DC06C00E14E75 /* AppDelegate.swift */; };
+		F5EA6A432C5DC06C00E14E75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EA6A422C5DC06C00E14E75 /* SceneDelegate.swift */; };
+		F5EA6A462C5DC06C00E14E75 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F5EA6A452C5DC06C00E14E75 /* Base */; };
+		F5EA6A492C5DC06C00E14E75 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F5EA6A482C5DC06C00E14E75 /* Base */; };
+		F5EA6A5C2C5DC06C00E14E75 /* NCHU_captcha Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F5EA6A5B2C5DC06C00E14E75 /* NCHU_captcha Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F5EA6A6C2C5DC06C00E14E75 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F5EA6A282C5DC06A00E14E75 /* Base */; };
+		F5EA6A702C5DC06C00E14E75 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = F5EA6A2A2C5DC06A00E14E75 /* Style.css */; };
+		F5EA6A722C5DC06C00E14E75 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = F5EA6A2B2C5DC06A00E14E75 /* Script.js */; };
+		F5EA6A742C5DC06C00E14E75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EA6A2C2C5DC06A00E14E75 /* ViewController.swift */; };
+		F5EA6A762C5DC06C00E14E75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5EA6A2D2C5DC06C00E14E75 /* Assets.xcassets */; };
+		F5EA6A782C5DC06C00E14E75 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EA6A2F2C5DC06C00E14E75 /* SafariWebExtensionHandler.swift */; };
+		F5EA6A7A2C5DC06C00E14E75 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = F5EA6A312C5DC06C00E14E75 /* _locales */; };
+		F5EA6A7C2C5DC06C00E14E75 /* images in Resources */ = {isa = PBXBuildFile; fileRef = F5EA6A322C5DC06C00E14E75 /* images */; };
+		F5EA6A7E2C5DC06C00E14E75 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = F5EA6A332C5DC06C00E14E75 /* manifest.json */; };
+		F5EA6A842C5DC06C00E14E75 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = F5EA6A362C5DC06C00E14E75 /* popup.html */; };
+		F5EA6A862C5DC06C00E14E75 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = F5EA6A372C5DC06C00E14E75 /* popup.css */; };
+		F5EA6A882C5DC06C00E14E75 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = F5EA6A382C5DC06C00E14E75 /* popup.js */; };
+		F5EA6A9B2C5DC08400E14E75 /* ilearning.js in Resources */ = {isa = PBXBuildFile; fileRef = F5EA6A9A2C5DC08400E14E75 /* ilearning.js */; };
+		F5EA6A9E2C5DC08B00E14E75 /* NCHU_Portal.js in Resources */ = {isa = PBXBuildFile; fileRef = F5EA6A9D2C5DC08B00E14E75 /* NCHU_Portal.js */; };
+		F5F21D932D4BA23100E143A5 /* 128.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F21D922D4BA23100E143A5 /* 128.png */; };
+		F5F21D982D4BA43700E143A5 /* Step2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F21D952D4BA43700E143A5 /* Step2.jpg */; };
+		F5F21D992D4BA43700E143A5 /* Step1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F21D942D4BA43700E143A5 /* Step1.jpg */; };
+		F5F21D9A2D4BA43700E143A5 /* Step3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F21D962D4BA43700E143A5 /* Step3.jpg */; };
+		F5F21D9B2D4BA43700E143A5 /* Step4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F21D972D4BA43700E143A5 /* Step4.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5EA6A5D2C5DC06C00E14E75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5EA6A212C5DC06A00E14E75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5EA6A5A2C5DC06C00E14E75;
+			remoteInfo = "NCHU_captcha Extension (iOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F5EA6A8F2C5DC06C00E14E75 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F5EA6A5C2C5DC06C00E14E75 /* NCHU_captcha Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F5EA6A282C5DC06A00E14E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		F5EA6A2A2C5DC06A00E14E75 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		F5EA6A2B2C5DC06A00E14E75 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		F5EA6A2C2C5DC06A00E14E75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5EA6A2D2C5DC06C00E14E75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5EA6A2F2C5DC06C00E14E75 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		F5EA6A312C5DC06C00E14E75 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		F5EA6A322C5DC06C00E14E75 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		F5EA6A332C5DC06C00E14E75 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		F5EA6A362C5DC06C00E14E75 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		F5EA6A372C5DC06C00E14E75 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		F5EA6A382C5DC06C00E14E75 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		F5EA6A3D2C5DC06C00E14E75 /* NCHU_captcha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NCHU_captcha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5EA6A402C5DC06C00E14E75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5EA6A422C5DC06C00E14E75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F5EA6A452C5DC06C00E14E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5EA6A482C5DC06C00E14E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5EA6A4A2C5DC06C00E14E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5EA6A512C5DC06C00E14E75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5EA6A542C5DC06C00E14E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5EA6A562C5DC06C00E14E75 /* NCHU_captcha.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NCHU_captcha.entitlements; sourceTree = "<group>"; };
+		F5EA6A5B2C5DC06C00E14E75 /* NCHU_captcha Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "NCHU_captcha Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5EA6A602C5DC06C00E14E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5EA6A6A2C5DC06C00E14E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5EA6A6B2C5DC06C00E14E75 /* NCHU_captcha.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NCHU_captcha.entitlements; sourceTree = "<group>"; };
+		F5EA6A9A2C5DC08400E14E75 /* ilearning.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = ilearning.js; sourceTree = "<group>"; };
+		F5EA6A9D2C5DC08B00E14E75 /* NCHU_Portal.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = NCHU_Portal.js; sourceTree = "<group>"; };
+		F5EA6AA02C5DC3DD00E14E75 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F5F21D912D4BA23100E143A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/128.png; sourceTree = "<group>"; };
+		F5F21D942D4BA43700E143A5 /* Step1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Step1.jpg; sourceTree = "<group>"; };
+		F5F21D952D4BA43700E143A5 /* Step2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Step2.jpg; sourceTree = "<group>"; };
+		F5F21D962D4BA43700E143A5 /* Step3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Step3.jpg; sourceTree = "<group>"; };
+		F5F21D972D4BA43700E143A5 /* Step4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Step4.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5EA6A3A2C5DC06C00E14E75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5EA6A582C5DC06C00E14E75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5EA6A202C5DC06A00E14E75 = {
+			isa = PBXGroup;
+			children = (
+				F5EA6AA02C5DC3DD00E14E75 /* README.md */,
+				F5EA6A252C5DC06A00E14E75 /* Shared (App) */,
+				F5EA6A2E2C5DC06C00E14E75 /* Shared (Extension) */,
+				F5EA6A3F2C5DC06C00E14E75 /* iOS (App) */,
+				F5EA6A502C5DC06C00E14E75 /* macOS (App) */,
+				F5EA6A5F2C5DC06C00E14E75 /* iOS (Extension) */,
+				F5EA6A692C5DC06C00E14E75 /* macOS (Extension) */,
+				F5EA6A3E2C5DC06C00E14E75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5EA6A252C5DC06A00E14E75 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				F5EA6A2C2C5DC06A00E14E75 /* ViewController.swift */,
+				F5EA6A2D2C5DC06C00E14E75 /* Assets.xcassets */,
+				F5EA6A262C5DC06A00E14E75 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		F5EA6A262C5DC06A00E14E75 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F5EA6A272C5DC06A00E14E75 /* Main.html */,
+				F5EA6A2A2C5DC06A00E14E75 /* Style.css */,
+				F5F21D922D4BA23100E143A5 /* 128.png */,
+				F5EA6A2B2C5DC06A00E14E75 /* Script.js */,
+				F5F21D942D4BA43700E143A5 /* Step1.jpg */,
+				F5F21D952D4BA43700E143A5 /* Step2.jpg */,
+				F5F21D962D4BA43700E143A5 /* Step3.jpg */,
+				F5F21D972D4BA43700E143A5 /* Step4.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F5EA6A2E2C5DC06C00E14E75 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				F5EA6A2F2C5DC06C00E14E75 /* SafariWebExtensionHandler.swift */,
+				F5EA6A302C5DC06C00E14E75 /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		F5EA6A302C5DC06C00E14E75 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F5EA6A312C5DC06C00E14E75 /* _locales */,
+				F5EA6A322C5DC06C00E14E75 /* images */,
+				F5EA6A332C5DC06C00E14E75 /* manifest.json */,
+				F5EA6A9A2C5DC08400E14E75 /* ilearning.js */,
+				F5EA6A9D2C5DC08B00E14E75 /* NCHU_Portal.js */,
+				F5EA6A362C5DC06C00E14E75 /* popup.html */,
+				F5EA6A372C5DC06C00E14E75 /* popup.css */,
+				F5EA6A382C5DC06C00E14E75 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F5EA6A3E2C5DC06C00E14E75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5EA6A3D2C5DC06C00E14E75 /* NCHU_captcha.app */,
+				F5EA6A5B2C5DC06C00E14E75 /* NCHU_captcha Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5EA6A3F2C5DC06C00E14E75 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				F5EA6A402C5DC06C00E14E75 /* AppDelegate.swift */,
+				F5EA6A422C5DC06C00E14E75 /* SceneDelegate.swift */,
+				F5EA6A442C5DC06C00E14E75 /* LaunchScreen.storyboard */,
+				F5EA6A472C5DC06C00E14E75 /* Main.storyboard */,
+				F5EA6A4A2C5DC06C00E14E75 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		F5EA6A502C5DC06C00E14E75 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				F5EA6A512C5DC06C00E14E75 /* AppDelegate.swift */,
+				F5EA6A532C5DC06C00E14E75 /* Main.storyboard */,
+				F5EA6A562C5DC06C00E14E75 /* NCHU_captcha.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		F5EA6A5F2C5DC06C00E14E75 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				F5EA6A602C5DC06C00E14E75 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		F5EA6A692C5DC06C00E14E75 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				F5EA6A6A2C5DC06C00E14E75 /* Info.plist */,
+				F5EA6A6B2C5DC06C00E14E75 /* NCHU_captcha.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5EA6A3C2C5DC06C00E14E75 /* NCHU_captcha (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5EA6A902C5DC06C00E14E75 /* Build configuration list for PBXNativeTarget "NCHU_captcha (iOS)" */;
+			buildPhases = (
+				F5EA6A392C5DC06C00E14E75 /* Sources */,
+				F5EA6A3A2C5DC06C00E14E75 /* Frameworks */,
+				F5EA6A3B2C5DC06C00E14E75 /* Resources */,
+				F5EA6A8F2C5DC06C00E14E75 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5EA6A5E2C5DC06C00E14E75 /* PBXTargetDependency */,
+			);
+			name = "NCHU_captcha (iOS)";
+			productName = "NCHU_captcha (iOS)";
+			productReference = F5EA6A3D2C5DC06C00E14E75 /* NCHU_captcha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5EA6A5A2C5DC06C00E14E75 /* NCHU_captcha Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5EA6A8C2C5DC06C00E14E75 /* Build configuration list for PBXNativeTarget "NCHU_captcha Extension (iOS)" */;
+			buildPhases = (
+				F5EA6A572C5DC06C00E14E75 /* Sources */,
+				F5EA6A582C5DC06C00E14E75 /* Frameworks */,
+				F5EA6A592C5DC06C00E14E75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NCHU_captcha Extension (iOS)";
+			productName = "NCHU_captcha Extension (iOS)";
+			productReference = F5EA6A5B2C5DC06C00E14E75 /* NCHU_captcha Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5EA6A212C5DC06A00E14E75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					F5EA6A3C2C5DC06C00E14E75 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					F5EA6A5A2C5DC06C00E14E75 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = F5EA6A242C5DC06A00E14E75 /* Build configuration list for PBXProject "NCHU_Captcha" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5EA6A202C5DC06A00E14E75;
+			productRefGroup = F5EA6A3E2C5DC06C00E14E75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5EA6A3C2C5DC06C00E14E75 /* NCHU_captcha (iOS) */,
+				F5EA6A5A2C5DC06C00E14E75 /* NCHU_captcha Extension (iOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5EA6A3B2C5DC06C00E14E75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5EA6A462C5DC06C00E14E75 /* Base in Resources */,
+				F5EA6A6C2C5DC06C00E14E75 /* Base in Resources */,
+				F5F21D982D4BA43700E143A5 /* Step2.jpg in Resources */,
+				F5F21D992D4BA43700E143A5 /* Step1.jpg in Resources */,
+				F5F21D9A2D4BA43700E143A5 /* Step3.jpg in Resources */,
+				F5F21D9B2D4BA43700E143A5 /* Step4.jpg in Resources */,
+				F5EA6A722C5DC06C00E14E75 /* Script.js in Resources */,
+				F5EA6A762C5DC06C00E14E75 /* Assets.xcassets in Resources */,
+				F5F21D932D4BA23100E143A5 /* 128.png in Resources */,
+				F5EA6A492C5DC06C00E14E75 /* Base in Resources */,
+				F5EA6A702C5DC06C00E14E75 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5EA6A592C5DC06C00E14E75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5EA6A862C5DC06C00E14E75 /* popup.css in Resources */,
+				F5EA6A9E2C5DC08B00E14E75 /* NCHU_Portal.js in Resources */,
+				F5EA6A842C5DC06C00E14E75 /* popup.html in Resources */,
+				F5EA6A9B2C5DC08400E14E75 /* ilearning.js in Resources */,
+				F5EA6A7C2C5DC06C00E14E75 /* images in Resources */,
+				F5EA6A7E2C5DC06C00E14E75 /* manifest.json in Resources */,
+				F5EA6A7A2C5DC06C00E14E75 /* _locales in Resources */,
+				F5EA6A882C5DC06C00E14E75 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5EA6A392C5DC06C00E14E75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5EA6A742C5DC06C00E14E75 /* ViewController.swift in Sources */,
+				F5EA6A412C5DC06C00E14E75 /* AppDelegate.swift in Sources */,
+				F5EA6A432C5DC06C00E14E75 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5EA6A572C5DC06C00E14E75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5EA6A782C5DC06C00E14E75 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5EA6A5E2C5DC06C00E14E75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5EA6A5A2C5DC06C00E14E75 /* NCHU_captcha Extension (iOS) */;
+			targetProxy = F5EA6A5D2C5DC06C00E14E75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5EA6A272C5DC06A00E14E75 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5EA6A282C5DC06A00E14E75 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		F5EA6A442C5DC06C00E14E75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5EA6A452C5DC06C00E14E75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F5EA6A472C5DC06C00E14E75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5EA6A482C5DC06C00E14E75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5EA6A532C5DC06C00E14E75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5EA6A542C5DC06C00E14E75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5F21D922D4BA23100E143A5 /* 128.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F21D912D4BA23100E143A5 /* Base */,
+			);
+			name = 128.png;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5EA6A8A2C5DC06C00E14E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5EA6A8B2C5DC06C00E14E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F5EA6A8D2C5DC06C00E14E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6JJZAVHJ9S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "NCHU_captcha Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Eric-Yang.NCHU-captcha.Extension";
+				PRODUCT_NAME = "NCHU_captcha Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5EA6A8E2C5DC06C00E14E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6JJZAVHJ9S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "NCHU_captcha Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Eric-Yang.NCHU-captcha.Extension";
+				PRODUCT_NAME = "NCHU_captcha Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5EA6A912C5DC06C00E14E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6JJZAVHJ9S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = NCHU_Captcha;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Eric-Yang.NCHU-captcha";
+				PRODUCT_NAME = NCHU_captcha;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5EA6A922C5DC06C00E14E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6JJZAVHJ9S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = NCHU_Captcha;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Eric-Yang.NCHU-captcha";
+				PRODUCT_NAME = NCHU_captcha;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5EA6A242C5DC06A00E14E75 /* Build configuration list for PBXProject "NCHU_Captcha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5EA6A8A2C5DC06C00E14E75 /* Debug */,
+				F5EA6A8B2C5DC06C00E14E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5EA6A8C2C5DC06C00E14E75 /* Build configuration list for PBXNativeTarget "NCHU_captcha Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5EA6A8D2C5DC06C00E14E75 /* Debug */,
+				F5EA6A8E2C5DC06C00E14E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5EA6A902C5DC06C00E14E75 /* Build configuration list for PBXNativeTarget "NCHU_captcha (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5EA6A912C5DC06C00E14E75 /* Debug */,
+				F5EA6A922C5DC06C00E14E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5EA6A212C5DC06A00E14E75 /* Project object */;
+}
